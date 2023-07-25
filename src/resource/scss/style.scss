@@ -1,0 +1,316 @@
+.logo {
+    width: 65%;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    padding-left: 32px;
+}
+.nav {
+    padding: 0;
+    margin-top: 10px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.container-left {
+    padding-right: 0;
+}
+.nav-item {
+    font-size: 1.3rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding-left: 32px;
+    width: 100%;
+    cursor: pointer;
+}
+.nav-item .nav-item-title {
+    margin-left: 10px;
+}
+.nav-item i {
+    font-size: 2rem !important;
+}
+.aside-nav {
+    padding-top: 14px;
+}
+.container-left {
+    background-color: rgb(253 253 253 / 8%);
+    height: calc(100vh - 80px);
+}
+.vip-sidebar {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 0 10px 0;
+    background-image: linear-gradient(to right bottom, #5f4de6, #bc69d9);
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 34px;
+}
+.vip-sidebar-heading {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.buyvip {
+    background-color: gold;
+    color: black;
+    outline: none;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    width: 50%;
+    margin-top: 6px;
+    cursor: pointer;
+}
+.add-playlist {
+    margin-top: 20px;
+    padding-left: 32px;
+}
+.add-playlist a span {
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+}
+.aside-nav-wrapper {
+    width: 100%;
+    height: 225px;
+    overflow: hidden;
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.aside-nav-wrapper:hover {
+    overflow-y: scroll;
+}
+
+.nav-item.active {
+    padding-left: calc(32px - 4px);
+    background-color: #3a3243;
+    border-left: 4px solid #7201a1;
+}
+.header-controls {
+    display: flex;
+    font-size: 1.6rem;
+    justify-content: center;
+    align-items: center;
+}
+.arrow-icon {
+    margin-right: 26px;
+}
+.container-header {
+    height: 70px;
+}
+.arrow-icon.active {
+    color: #dadada;
+}
+.arrow-icon {
+    color: #8b8892;
+}
+.container-header__search {
+    background-color: #2f2739;
+    font-size: 1.4rem;
+    width: 80%;
+    display: flex;
+    height: 4rem;
+    border-radius: 20px;
+    align-items: center;
+}
+.container-header__search--content {
+    width: 95%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding-right: 40px;
+    color: white;
+}
+.container-header__search > i {
+    padding: 0 15px;
+}
+.header-controls__right {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.header-controls__right--item {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #dfd4d43d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+.header-controls.in-right {
+    justify-content: flex-end;
+}
+.header-controls__right--item.tshirt {
+    color: #b38fe9;
+}
+.header-controls__right--item.has-image {
+    background-image:url(../../img/avt.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header-profile-nav__user--avt {
+    background-image: url(../../img/avt.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    margin: 15px auto;
+}
+.header-user {
+    margin-top: 30px;
+}
+.header-user-buyvip__buy {
+    width: 125px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 28px;
+    background-color: #f8e71c;
+    display: block;
+    text-align: center;
+    border-radius: 14px;
+    margin-right: 2px;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+    margin-right: 8px;
+    text-transform: uppercase;
+}
+.header-user-buyvip__code {
+    width: 125px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 28px;
+    background-color: rgb(253 253 253 / 8%);
+    display: block;
+    text-align: center;
+    border-radius: 14px;
+    margin-right: 2px;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    margin-right: 8px;
+}
+.header-user-buyvip {
+    display: flex;
+}
+.header-user__more {
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    width: 28px;
+    height: 28px;
+    border: none;
+    background-color: rgb(253 253 253 / 8%);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.header-profile-name {
+    font-size: 32px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.main-nav-list {
+    width: 730px;
+    height: 32px;
+    background-color: rgb(253 253 253 / 8%);
+    display: flex;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+}
+.main-nav__item {
+    width: 100px;
+    height: 28px;
+    list-style: none;
+    line-height: 28px;
+    text-align: center;
+    border-radius: 16px;
+    cursor: pointer;
+    /* color: #f6f6db; */
+    color: #c2d5d6;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.main-nav__item.active {
+    background-color: #6e6875;
+    color: #fff;
+}
+.header-text-song-title {
+    font-weight: bold;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+
+// Audio
+
+.card {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    width: 200px;
+    margin-right: auto;
+  }
+  .card-img-top
+  {
+    width: 100%
+  }
+  .card .view {
+    -webkit-border-top-left-radius: 10px;
+    border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .card h5 a {
+    color: #0d47a1;
+  }
+  
+  .card h5 a:hover {
+    color: #072f6b;
+  }
+  
+  #pButton {
+    float: left;
+  }
+  
+  #timeline {
+    width: 90%;
+    height: 2px;
+    margin-top: 20px;
+    margin-left: 10px;
+    float: left;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  #pButton {
+    margin-top: 12px;
+    cursor: pointer;
+  }
+  
+  #playhead {
+    width: 8px;
+    height: 8px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    margin-top: -3px;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+  }
