@@ -155,7 +155,7 @@
     color: #b38fe9;
 }
 .header-controls__right--item.has-image {
-    background-image:url(../../img/avt.jpeg);
+    background-image: url(../../img/avt.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -257,7 +257,6 @@
     cursor: pointer;
 }
 
-
 // Audio
 
 .card {
@@ -265,31 +264,30 @@
     border-radius: 10px;
     width: 200px;
     margin-right: auto;
-  }
-  .card-img-top
-  {
-    width: 100%
-  }
-  .card .view {
+}
+.card-img-top {
+    width: 100%;
+}
+.card .view {
     -webkit-border-top-left-radius: 10px;
     border-top-left-radius: 10px;
     -webkit-border-top-right-radius: 10px;
     border-top-right-radius: 10px;
-  }
-  
-  .card h5 a {
+}
+
+.card h5 a {
     color: #0d47a1;
-  }
-  
-  .card h5 a:hover {
+}
+
+.card h5 a:hover {
     color: #072f6b;
-  }
-  
-  #pButton {
+}
+
+#pButton {
     float: left;
-  }
-  
-  #timeline {
+}
+
+#timeline {
     width: 90%;
     height: 2px;
     margin-top: 20px;
@@ -298,14 +296,14 @@
     -webkit-border-radius: 15px;
     border-radius: 15px;
     background: rgba(255, 255, 255, 0.3);
-  }
-  
-  #pButton {
+}
+
+#pButton {
     margin-top: 12px;
     cursor: pointer;
-  }
-  
-  #playhead {
+}
+
+#playhead {
     width: 8px;
     height: 8px;
     -webkit-border-radius: 50%;
@@ -313,4 +311,4 @@
     margin-top: -3px;
     background: rgb(255, 255, 255);
     cursor: pointer;
-  }
+}

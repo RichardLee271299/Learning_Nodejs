@@ -22,6 +22,14 @@
     "url": "https://github.com/RichardLee271299/Learning_Nodejs/issues"
   },
   "homepage": "https://github.com/RichardLee271299/Learning_Nodejs#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit" : "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{js,json,scss}": "prettier --tab-width 4 --single-quote --write --trailing-comma all"
+  },
   "dependencies": {
     "express": "^4.18.2"
   },
